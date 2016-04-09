@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<title>Documentation | Zi - Simple App Landing Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Zi - Simple App Landing Page Documentation">
+	<meta name="author" content="The Develovers">
+
+	<!-- CSS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/shCore.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/shThemeDefault.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+
+	<link rel="shortcut icon" href="assets/ico/favicon.png">
+
+</head>
+<body>
+
+	<!-- BEGIN CONTAINER -->
+	<div class="container">
+		<!-- DOC HEADER -->
+		<div class="doc-header">
+			<header>
+				<div class="logo">
+					<img src="assets/img/zi-logo.png" alt="Zi Logo">
+				</div>
+				<span class="badge">v1.1.1</span>
+				<h1>Zi Documentation</h1>
+			</header>
+			<div class="header-info">
+				<div class="row">
+					<div class="col-md-4">
+						<p>Created: Nov 26, 2014</p>
+						<p>Updated: Feb 29, 2016</p>
+						<p>By: The Develovers</p>
+						<p>Email: <a href="mailto:support@themeineed.com">support@themeineed.com</a></p>
+					</div>
+					<div class="col-md-8">
+						<p>Thank you for purchasing Zi - Simple App Landing Page. By reading this documentation we hope you will get the most of its features. If you have any questions that are beyond the scope of this help file, please feel free to contact us at <a href="mailto:support@themeineed.com">support@themeineed.com</a>. In your support message, please provide your license ID or payment ID (whichever applicable) for our validation.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END DOC HEADER -->
+
+		<!-- MAIN CONTENT -->
+		<div class="row">
+			<div class="col-md-3">
+				<!-- BEGIN DOC SIDEBAR -->
+				<div class="doc-sidebar">
+					<ul class="nav doc-sidenav">
+						<li class="active">
+							<a href="#overview">Overview</a>
+							<ul class="nav">
+								<li><a href="#features">Features</a></li>
+								<li><a href="#important-notes">Important Notes</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#structure">Structure</a>
+							<ul class="nav">
+								<li><a href="#file-structure">File and Directory Structure</a></li>
+								<li><a href="#html-structure">HTML Structure</a></li>
+								<li><a href="#responsive">Responsive</a></li>
+								<li><a href="#sasscss-structure">Sass/CSS Structure</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#customize-style">Customize Style</a>
+							<ul class="nav">
+								<li><a href="#customize-logo">Logo</a></li>
+								<li><a href="#customize-header-bg">Header Background</a></li>
+								<li><a href="#customize-fullscreen-slider">Fullscreen Slider</a></li>
+								<li><a href="#customize-colors">Colors</a></li>
+								<li><a href="#customize-features">Features Section</a></li>
+								<li><a href="#customize-screenshot">Infinite Screenshot Slider</a></li>
+								<li><a href="#customize-animation">Animation</a></li>
+								<li><a href="#customize-footer">Footer</a></li>
+							</ul>
+						</li>
+						<li><a href="#setting-newsletter">Setting Newsletter Form</a></li>
+						<li><a href="#changelog">Changelog</a></li>
+						<li><a href="#credits">Credits</a></li>
+					</ul>
+				</div>
+				<!-- END DOC SIDEBAR -->
+			</div>
+
+			<div class="col-md-9">
+				<!-- BEGIN DOC CONTENT -->
+				<div class="doc-content">
+					<!-- BEGIN DOC SECTION -->
+					<section class="doc-section">
+						<h2 id="overview">Overview</h2>
+						<hr>
+						<p class="lead">Zi is an App landing page created to make your App looks outstanding between the crowd. It has clear and simple design for best visual apperance and elegant feel. The features and sections let you present the App beatifuly and with its interactions, visitor will enjoy digging what your App is about and finally use it. The theme also has ultra responsive design that make the layout looks good in any screen size, thus impacting great content accesibility.</p>
+
+						<h3 id="features">Features</h3>
+						<ul>
+							<li>Delivered with 5 different styles: <strong>fullscreen slider, fullscreen image (iPhone), fullscreen video, single column fullscreen image and fullscreen image (Nexus 5)</strong></li>
+							<li>Simple, clean and elegant design</li>
+							<li>Ultra responsive design</li>
+							<li>Handcrafted to achieve the best readibility and accessibility</li>
+							<li>Working mailchimp AJAX newsletter form</li>
+							<li>Infinite screenshots slider</li>
+							<li>7 built-in color skins</li>
+							<li>Vimeo and YouTube video embed ready</li>
+							<li>Pages with preloader and without preloader version</li>
+							<li>600+ font icons</li>
+							<li>Easy to customize</li>
+							<li>HTML5 validated and CSS3 transition</li>
+							<li>Elegant-feel page scrolling</li>
+							<li>Bootstrap 3.3 compatible</li>
+							<li>Built with Sass and well organized HTML, CSS and Javascript files</li>
+							<li>PSDs provided for elements like app screenshots</li>
+							<li>Free support and updates</li>
+							<li><strong>BONUS: Pre-launch Page</strong> with working AJAX newsletter form.</li>
+						</ul>
+
+						<h3 id="important-notes">Important Notes</h3>
+						<div class="alert alert-warning">
+							<strong><i class="fa fa-exclamation-triangle"></i> Note:</strong> Newsletter only works in web server with PHP environment. We recommend you to develop the theme in web server, i.e. XAMPP, MAMP or others.
+						</div>
+						<div class="alert alert-info">
+							<strong><i class="fa fa-info-circle"></i> Info:</strong> It's recommended to put your custom CSS into separate file to avoid changing <code>main.css</code>.
+						</div>
+					</section>
+					<!-- END DOC SECTION -->
+
+					<!-- BEGIN DOC SECTION -->
+					<section class="doc-section">
+						<h2 id="structure">Structure</h2>
+						<hr>
+						<h3 id="file-structure">File and Directory Structure</h3>
+						<p>Below is the structure of the main files and directories after unzipping:</p>
+						<ul class="list-unstyled">
+							<li><i class="fa fa-folder text-primary"></i> documentation/
+								<ul>
+									<li><i class="fa fa-folder text-primary"></i> assets/
+										<ul>
+											<li><i class="fa fa-folder text-primary"></i> css/</li>
+											<li><i class="fa fa-folder text-primary"></i> fonts/</li>
+											<li><i class="fa fa-folder text-primary"></i> ico/</li>
+											<li><i class="fa fa-folder text-primary"></i> img/</li>
+											<li><i class="fa fa-folder text-primary"></i> js/</li>
+										</ul>
+									</li>
+									<li><i class="fa fa-file-code-o"></i> index.html</li>
+								</ul>
+							</li>
+							<li><i class="fa fa-folder text-primary"></i> phone-placeholders/</li>
+							<li><i class="fa fa-folder text-primary"></i> PSDs/</li>
+							<li><i class="fa fa-folder text-primary"></i> theme/
+								<ul>
+									<li><i class="fa fa-folder text-primary"></i> assets/
+										<ul>
+											<li><i class="fa fa-folder text-primary"></i> css/</li>
+											<li><i class="fa fa-folder text-primary"></i> fonts/</li>
+											<li><i class="fa fa-folder text-primary"></i> ico/</li>
+											<li><i class="fa fa-folder text-primary"></i> img/</li>
+											<li><i class="fa fa-folder text-primary"></i> js/</li>
+											<li><i class="fa fa-folder text-primary"></i> videos/</li>
+										</ul>
+									</li>
+									<li><i class="fa fa-folder text-primary"></i> img-demo/ (for demo purpose only)</li>
+									<li><i class="fa fa-folder text-primary"></i> inc/</li>
+									<li><i class="fa fa-folder text-primary"></i> sass/
+										<ul>
+											<li><i class="fa fa-folder text-primary"></i> modules/</li>
+											<li><i class="fa fa-folder text-primary"></i> partials/</li>
+											<li><i class="fa fa-folder text-primary"></i> skins/</li>
+											<li><i class="fa fa-folder text-primary"></i> vendors/</li>
+											<li><i class="fa fa-file-code-o"></i> main.scss</li>
+										</ul>
+									</li>
+									<li><i class="fa fa-file-code-o"></i> config.rb</li>
+									<li><i class="fa fa-file-code-o"></i> *.html</li>
+								</ul>
+							</li>
+						</ul>
+
+						<p>Please see the complete theme files directly at <code>theme/</code> directory.</p>
+
+						<h3 id="html-structure">HTML Structure</h3>
+						<p>Theme page stucture is divided by section such as features, screenshots and so on. <strong>HERO SECTION</strong> is special section that will determine your hero unit style whether it's a fullscreen image background, video background or single column header. Pre-launch page also use this the same layout for hero unit with css class <code>.hero-prelaunch</code></p>
+						<script type="syntaxhighlighter" class="brush: html">
+						<![CDATA[
+							<!DOCTYPE html>
+							<!--[if IE 9 ]><html class="ie ie9" lang="en" class="no-js"> <![endif]-->
+							<!--[if !(IE)]><!--><html lang="en" class="no-js"> <!--<![endif]-->
+							<head>
+								<title>Zi - Simple App Landing Page</title>
+								<meta charset="utf-8">
+								<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+								<meta name="description" content="Zi - Simple App Landing Page">
+								<meta name="author" content="The Develovers">
+
+								<!-- CSS -->
+								...
+
+								<!-- Google Fonts -->
+								...
+
+								<!-- Fav and touch icons -->
+								...
+							</head>
+							<body>
+								<!-- PAGE PRELOADER -->
+								<div id="preloader"> ... </div>
+								<!-- END PAGE PRELOADER -->
+
+								<!-- WRAPPER -->
+								<div class="wrapper">
+
+									<!-- HEADER -->
+									<header class="navbar navbar-fixed-top navbar-default"> ... </header>
+									<!-- END HEADER -->
+
+									<!-- HERO SECTION (choose one of hero unit/header type below) -->
+									<!-- if you want image background -->
+									<section id="top" class="hero-unit fullscreen-image-bg clearfix"> ... </section>
+
+									<!-- if you want video background header -->
+									<section id="top" class="hero-unit fullscreen-video-bg clearfix" data-vide-bg="assets/videos/sky" data-vide-options="loop: false, posterType: png"> ... </section>
+
+									<!-- if you want single column header -->
+									<section id="top" class="hero-unit hero-single-column fullscreen-image-bg clearfix"> ... </section>
+									<!-- END HERO SECTION -->
+
+									<!-- HOW-IT-WORKS SECTION -->
+									<section id="howitworks" class="how-it-works text-center"> ... </section>
+									<!-- END HOW-IT-WORKS SECTION -->
+
+									<!-- FEATURES SECTION -->
+									<section id="features" class="text-center features"> ... </section>
+									<!-- END FEATURES SECTION -->
+
+									<!-- SCREENSHOTS -->
+									<section id="screenshots" class="text-center screenshots"> ... </section>
+									<!-- END SCREENSHOTS -->
+
+									<!-- CALL-TO-ACTION -->
+									<section class="text-center call-to-action"> ... </section>
+									<!-- END CALL-TO-ACTION -->
+
+									<!-- REVIEWS -->
+									<section id="reviews" class="text-center reviews"> ... </section>
+									<!-- END REVIEWS -->
+
+									<!-- FEATURED-ON -->
+									<section class="featuredon text-center"> ... </section>
+									<!-- END FEATURED-ON -->
+
+									<!-- FOOTER -->
+									<footer> ... </footer>
+									<!-- FOOTER -->
+
+								</div>
+								<!-- END WRAPPER -->
+
+								<div class="back-to-top">
+									<a href="#top"><i class="fa fa-angle-up"></i></a>
+								</div>
+
+								<!-- JAVASCRIPTS -->
+								<!-- all javascript files needed on current page -->
+
+							</body>
+							</html>
+
+						]]>
+						</script>
+
+						<h3 id="responsive">Responsive</h3>
+						<p>Responsiveness is main feature of this theme for great content accesibility and readibility on various screen size and devices. To make the theme responsive, breakpoints should be declared to determine which elements must be hidden, shown or reposition. You can find media queries breakpoints declaration at <code>sass/partials/_base.scss</code> file as below</p>
+						<script type="syntaxhighlighter" class="brush: css">
+						<![CDATA[
+							// media queries breakpoint
+							$break-xsmall: 480px;
+							$break-small: 768px;
+							$break-medium: 992px;
+							$break-large: 1200px;
+							$break-xlarge: 1440px;
+						]]>
+						</script>
+
+						<h3 id="sasscss-structure">Sass/CSS Structure</h3>
+						<p>Since it's built with Sass which generate CSS for the theme, consequently CSS file (<code>assets/css/main.css</code>) will have the same structure as below (<code>sass/main.scss</code>)</p>
+						<script type="syntaxhighlighter" class="brush: css">
+						<![CDATA[
+							/*
+							*	############################################################################
+							*	
+							*	Zi - Simple Landing Page
+							*	---------------------------------------------------------------------
+							*
+							*	Version		1.1
+							*	Author		The Develovers
+							*	Copyright	Copyright 2014 The Develovers
+							*
+							*	############################################################################
+							*/
+
+							// import modules, general styles and variables
+							@import "modules/mixins";
+							@import "partials/base";
+							@import "partials/general";
+
+							// import third-party
+							@import "vendors/jquery.bxslider";
+							@import "vendors/slick.custom";
+							@import "vendors/animate";
+							@import "vendors/jquery.maximage";
+
+							// import web elements
+							@import "partials/page";
+
+						]]>
+						</script>
+					</section>
+					<!-- END DOC SECTION -->
+
+					<!-- BEGIN DOC SECTION -->
+					<section class="doc-section">
+						<h2 id="customize-style">Customize Style</h2>
+						<hr>
+						<h3 id="customize-logo">Logo</h3>
+						<p>You can find the source of the theme logo at <code>PSDs/</code> directory. There are two type of logo, one that used at navbar (zi-logo-header.psd) and the other at hero unit (zi-logo.psd). These source files have exact size as the demo. So if you want the exact result we recommend to use it, but if not you can adjust size and position of navbar logo as below:</p>
+						<script type="syntaxhighlighter" class="brush: css">
+						<![CDATA[
+							/* at assets/css/main.css */
+							.navbar-logo {
+								padding-top: 3px;
+								padding-bottom: 3px;
+							}
+
+							.navbar-logo img {
+								width: 100px;
+							}
+						]]>
+						</script>
+
+						<h3 id="customize-header-bg">Header Background</h3>
+						<p>Use zi-fullscreen-bg.psd as a template for big header background with size 1920px x 1080px. Please keep in mind the file size for the image. Change the image as below:</p>
+						<script type="syntaxhighlighter" class="brush: css">
+						<![CDATA[
+							/* at assets/css/main.css */
+							.hero-unit.fullscreen-image-bg {
+								background-image: url('../img/zi-fullscreen-bg.png?1416625832');
+								background-repeat: no-repeat;
+								background-position: center -7em;
+							}
+						]]>
+						</script>
+
+						<p>Adjust <code>background-position</code> as necessary to get the best visual appearance.</p>
+
+						<h3 id="customize-fullscreen-slider">Fullscreen Slider</h3>
+						<p>To change slide image background, go directly to the HTML and find hero unit section with class <code>fullscreen-slider</code>. You can find slide items inside <code>div</code> element. Each slide item has image as the background of the slide.</p>
+						
+						<div class="alert alert-warning">
+							<strong><i class="fa fa-warning"></i> Attention:</strong> Image background will always be placed as first <code>&lt;img&gt;</code>element on the HTML structure of each slide.
+						</div>
+
+						<p>Slider plugin used by this theme is <a href="http://www.aaronvanderzwan.com/maximage/">Maximage 2</a>, please visit its documentation for further at <a href="http://blog.aaronvanderzwan.com/2012/07/maximage-2-0/#options">http://blog.aaronvanderzwan.com/2012/07/maximage-2-0/#options</a>.</p>
+
+						<h3 id="customize-colors">Colors</h3>
+						<p>This theme provides built-in colors skin that you can use as starter to customize the colors. They can be found at <code>assets/css/skins/</code>.
+						Don't forget to include the skin files at HTML header (assumed you have removed demo panel)</p>
+						<script type="syntaxhighlighter" class="brush: html">
+						<![CDATA[
+							<!DOCTYPE html>
+							<!--[if IE 9 ]><html class="ie ie9" lang="en" class="no-js"> <![endif]-->
+							<!--[if !(IE)]><!--><html lang="en" class="no-js"> <!--<![endif]-->
+							<head>
+								<title>Zi - Simple App Landing Page</title>
+
+								....
+
+								<!-- CSS -->
+								<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+								<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+								<link href="assets/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+								<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+								<link href="assets/css/skins/your_chosen_skin.css" rel="stylesheet" type="text/css">
+
+								...
+
+							</head>
+							</body> ... </body>
+							</html>
+						]]>
+						</script>
+
+						<h3 id="customize-features">Features Section</h3>
+						<p>This section uses <a href="http://bxslider.com">BxSlider</a> as content slider. You can find the plugin at <code>assets/js/plugins/bxslider/</code>. For further slider options please visit <a href="http://bxslider.com/options">BxSlider documentation</a>. The phone mockup on the right side is a phone placeholder, the theme provides 3 phone placeholders which can be found after unzipping the file at <code>phone-placeholders/</code> directory. They are <code>iphone-placeholder-black.png</code>, <code>iphone-placeholder-silver.png</code> and <code>nexus5-placeholder.png</code>. Due to license term, we can't include PSD version of the placeholders in this theme, but you can get them at <a href="http://www.pixeden.com/psd-mock-up-templates/iphone-6-plus-psd-vector-mockup">http://www.pixeden.com/psd-mock-up-templates/iphone-6-plus-psd-vector-mockup</a> and <a href="https://dribbble.com/shots/1552949-Google-Nexus-5-Mockup-PSD">https://dribbble.com/shots/1552949-Google-Nexus-5-Mockup-PSD</a>. </p>
+
+						<p>We also provides PSD for App screenshots template with exact dimension as the demo, it will be placed on top of the phone placeholders. Find the files at <code>PSDs/</code> directory, you will get <code>iphone-app-screenshots.psd</code> and <code>nexus5-app-screenshots.psd</code>. Match the app screenshot and its placeholders due to screen size difference, iPhone placeholder for iPhone App screenshot, Nexus placeholder for Nexus App screenshot. Below is the code snippet where you can change the app screenshot for Features section.</p>
+						<script type="syntaxhighlighter" class="brush: html">
+						<![CDATA[
+							<ul class="list-unstyled feature-slides">
+								<li>
+									<div class="left">
+										<ul class="list-unstyled feature-list">
+											<li>
+												<h3>SIMPLE &AMP; ELEGANT</h3>
+												<p>Quickly benchmark transparent communities via just in time outsourcing. Holisticly drive bricks-and-clicks innovation through.</p>
+												<i class="icon-star"></i>
+											</li>
+											<li>
+												<h3>HANDCRAFTED DESIGN</h3>
+												<p>Assertively grow premium schemas after <a href="#">stand-alone core competencies</a>. Professionally mesh virtual products and future-proof.</p>
+												<i class="icon-pencil"></i>
+											</li>
+											<li>
+												<h3>BUILT WITH BOOTSTRAP 3</h3>
+												<p>Completely engage economically sound intellectual capital before extensive communities. Synergistically reconceptualize equity invested meta-services.</p>
+												<i class="icon-support"></i>
+											</li>
+										</ul>
+									</div>
+									<div class="right">
+										<!-- change the app screenshot here -->
+										<img src="assets/img/feature-app-iphonescr1.png" alt="App Features">
+									</div>
+								</li>
+
+								... 
+							</ul>
+						]]>
+						</script>
+
+						<p>If you need some adjustments between the screenshot and its placeholders, please find code as below:</p>
+						<script type="syntaxhighlighter" class="brush: css">
+						<![CDATA[
+							/* at assets/css/main.css */
+							.features .right img {
+								position: relative;
+								top: 75px;
+								left: 17px;
+							}
+						]]>
+						</script>
+
+						<p>Adjust <code>top</code> and <code>left</code> value as necessary.</p>
+
+						<h3 id="customize-screenshot">Infinite Screenshot Slider</h3>
+						<p>To implement infinite screenshot slider, the theme uses <a href="http://github.com/kenwheeler/slick">Slick</a> carousel. Changing the App screenshot is easy, please find the code as below:</p>
+						<script type="syntaxhighlighter" class="brush: html">
+						<![CDATA[
+							<div class="app-screenshots">
+								<div><img src="assets/img/app-scr/app-scr1.png" alt="App Screenshot"></div>
+								<div><img src="assets/img/app-scr/app-scr2.png" alt="App Screenshot"></div>
+								<div><img src="assets/img/app-scr/app-scr3.png" alt="App Screenshot"></div>
+								<div><img src="assets/img/app-scr/app-scr4.png" alt="App Screenshot"></div>
+								<div><img src="assets/img/app-scr/app-scr1.png" alt="App Screenshot"></div>
+								<div><img src="assets/img/app-scr/app-scr2.png" alt="App Screenshot"></div>
+							</div>
+						]]>
+						</script>
+
+						<p>We have provided the template for App screenshots as above with exact dimension like the demo. After unzipping the file you should get file <code>section-infinite-screenshots-appscr.psd</code> at <code>PSDs/</code> directory.</p>
+
+						<h3 id="customize-animation">Animation</h3>
+						<p>The theme uses plugin <a href="http://mynameismatthieu.com/WOW/">WOW Js</a> to provide content animation. If you need further guide about this plugin, please check plugin documentation at <a href="http://mynameismatthieu.com/WOW/docs.html">http://mynameismatthieu.com/WOW/docs.html</a>.</p>
+
+						<h3 id="customize-footer">Footer</h3>
+						<p>The theme mostly use <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> as icon set, includes social icons. Please see the complete list of the icons here <a href="http://fortawesome.github.io/Font-Awesome/icons/">http://fortawesome.github.io/Font-Awesome/icons/</a></p>
+					</section>
+					<!-- END DOC SECTION -->
+
+					<!-- BEGIN DOC SECTION -->
+					<section class="doc-section">
+						<h2 id="setting-newsletter">Setting Newsletter Form</h2>
+						<hr>
+						<p>This section explains how to setting newsletter form at the page footer and <code>pre-launch.html</code> page as below:</p>
+						<script type="syntaxhighlighter" class="brush: html">
+						<![CDATA[
+							<form class="newsletter-form" method="POST">
+								<div class="input-group input-group-lg">
+									<input type="email" class="form-control" name="email" placeholder="youremail@domain.com">
+									<span class="input-group-btn"><button class="btn btn-primary" type="button"><i class="fa fa-spinner fa-spin"></i><span>SUBSCRIBE</span></button></span>
+								</div>
+								<div class="alert"></div>
+							</form>
+						]]>
+						</script>
+						
+						<p>You can find the AJAX call script for newsletter at <code>assets/js/zi-newsletter.js</code>. As you can see, the script calls <code>mailchimp.php</code> to do the backend process. That's the file where we put some newsletter parameters setting. Please open <code>mailchimp.php</code> and provide API key and list ID which you can get them from your MailChimp account.</p>
+						<script type="syntaxhighlighter" class="brush: js">
+						<![CDATA[
+							// Your API Key: http://admin.mailchimp.com/account/api/
+							$api = new MCAPI('YOUR_API_KEY');
+
+							// Your List Unique ID: http://admin.mailchimp.com/lists/ (Click "settings")
+							$list_id = "YOUR_LIST_ID";
+						]]>
+						</script>
+
+						<div class="alert alert-warning">
+							<strong><i class="fa fa-exclamation-triangle"></i> Note:</strong> In order to make the newsletter form works, please make sure the theme is placed in web server with PHP environment, otherwise it doesn't work (i.e. opening the template as static file instead on localhost).
+						</div>
+						
+					</section>
+					<!-- END DOC SECTION -->
+
+					<!-- BEGIN DOC SECTION -->
+					<section class="doc-section">
+						<h2 id="changelog">Changelog</h2>
+						<div class="well well-changelog">
+							<h3>Version 1.1.1 <small>Feb 29, 2016</small></h3>
+							<ul>
+								<li>ADDED mailchimp.php that previously not included in theme</li>
+							</ul>
+
+							<h3>Version 1.1 <small>Jan 11, 2016</small></h3>
+							<ul>
+								<li>ADDED 11 new html pages</li>
+								<li>ADDED page with fullscreen slider (with no preloader and no animation version)</li>
+								<li>ADDED page content: Reviews</li>
+								<li>ADDED animation effect</li>
+								<li>UPDATED Bootstrap to v3.3.6</li>
+								<li>UPDATED Font Awesome to v4.5.0</li>
+								<li>UPDATED jQuery Vide</li>
+								<li>UPDATED documentation</li>
+								<li>IMPROVED loading icon with better one</li>
+								<li>CHANGED video background</li>
+							</ul>
+
+							<h3>Version 1.0 <small>Nov 29, 2014</small></h3>
+							<ul>
+								<li>Initial release</li>
+							</ul>
+						</div>
+					</section>
+					<!-- END DOC SECTION -->
+
+					<!-- BEGIN DOC SECTION -->
+					<section class="doc-section">
+						<h2 id="credits">Credits</h2>
+						<hr>
+						<p>We would like to thank you for jQuery plugins, icons, fonts, images files used in this theme created by the fellow individual developer or team below:</p>
+						<ul>
+							<li>jQuery - <a href="http://jquery.com/">http://jquery.com/</a></li>
+							<li>Bootstrap - <a href="http://getbootstrap.com/">http://getbootstrap.com/</a></li>
+							<li>jQuery Easing - <a href="http://gsgd.co.uk/sandbox/jquery/easing/">http://gsgd.co.uk/sandbox/jquery/easing/</a></li>
+							<li>Images - <a href="http://unsplash.com/">http://unsplash.com/</a></li>
+							<li>Font Awesome Icons - <a href="http://fortawesome.github.io/Font-Awesome/">http://fortawesome.github.io/Font-Awesome/</a></li>
+							<li>Simple Line Icons - <a href="http://graphicburger.com/simple-line-icons-webfont/">http://graphicburger.com/simple-line-icons-webfont/</a></li>
+							<li>BxSlider - <a href="http://bxslider.com">http://bxslider.com</a></li>
+							<li>FitVids - <a href="http://fitvidsjs.com/">http://fitvidsjs.com/</a></li>
+							<li>Vide - <a href="http://vodkabears.github.io/vide/">http://vodkabears.github.io/vide/</a></li>
+							<li>jQuery ScrollTo and LocalScroll - <a href="http://flesler.blogspot.com/2007/10/jqueryscrollto.html">http://flesler.blogspot.com/2007/10/jqueryscrollto.html</a></li>
+							<li>Slick - <a href="http://github.com/kenwheeler/slick">http://github.com/kenwheeler/slick</a></li>
+							<li>Detect Mobile Device - <a href="http://detectmobilebrowser.com/">http://detectmobilebrowser.com/</a></li>
+							<li>App Store &amp; Google Play Buttons - <a href="https://dribbble.com/shots/1367882-Free-Vector-App-Store-Google-Play-Amazon-Badges">https://dribbble.com/shots/1367882-Free-Vector-App-Store-Google-Play-Amazon-Badges</a></li>
+							<li>iPhone Mockup - <a href="http://www.pixeden.com/psd-mock-up-templates/iphone-6-plus-psd-vector-mockup">http://www.pixeden.com/psd-mock-up-templates/iphone-6-plus-psd-vector-mockup</a></li>
+							<li>Nexus 5 Mockup - <a href="https://dribbble.com/shots/1552949-Google-Nexus-5-Mockup-PSD">https://dribbble.com/shots/1552949-Google-Nexus-5-Mockup-PSD</a></li>
+							<li>App Screenshots - <a href="http://graphicburger.com/ios-7-app-screens-psd/">http://graphicburger.com/ios-7-app-screens-psd/</a></li>
+							<li>Video Background - <a href="http://www.videezy.com/">Videezy.com</a></li>
+							<li>Logo - <a href="http://logos8.com/pixel-person/">http://logos8.com/pixel-person/</a>, <a href="http://logos8.com/technology-and-media-company/">http://logos8.com/technology-and-media-company/</a>, <a href="http://logos8.com/technology-logotypes/">http://logos8.com/technology-logotypes/</a></li>
+							<li>Vimeo Video - <a href="http://vimeo.com/40056491">http://vimeo.com/40056491</a></li>
+							<li>Maximage 2 - <a href="http://www.aaronvanderzwan.com/maximage/">http://www.aaronvanderzwan.com/maximage/</a></li>
+							<li>WOW Js - <a href="http://mynameismatthieu.com/WOW/">http://mynameismatthieu.com/WOW/</a></li>
+							<li>jQuery Cycle - <a href="http://jquery.malsup.com/cycle/">http://jquery.malsup.com/cycle/</a></li>
+						</ul>
+					</section>
+					<!-- END DOC SECTION -->
+				</div>
+				<!-- END DOC CONTENT -->
+			</div>
+		</div>
+		<!-- END MAIN CONTENT -->
+	</div>
+	<!-- BEGIN CONTAINER -->
+
+	<!-- JAVASCRIPTS -->
+	<script src="assets/js/jquery-2.1.0.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/shCore.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/shBrushXml.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/shBrushCss.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/shBrushJScript.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/shBrushPhp.js"></script>
+	<script src="assets/js/documentation.js"></script>
+	
+</body>
+</html>

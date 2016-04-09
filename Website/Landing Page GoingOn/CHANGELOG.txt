@@ -1,0 +1,22 @@
+//************************//
+//	CHANGELOG
+//************************//
+
+Version 1.1.1, 29-02-2016
+- ADDED mailchimp.php that previously not included in theme
+
+Version 1.1, 11-01-2016
+- ADDED 11 new html pages
+- ADDED page with fullscreen slider (with no preloader and no animation version)
+- ADDED page content: Reviews
+- ADDED animation effect
+- UPDATED Bootstrap to v3.3.6
+- UPDATED Font Awesome to v4.5.0
+- UPDATED jQuery Vide
+- UPDATED documentation
+- IMPROVED loading icon with better one
+- CHANGED video background
+
+
+Version 1.0, 28-11-2014
+- initial release
