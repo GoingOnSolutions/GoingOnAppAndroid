@@ -1,0 +1,9 @@
+{
+  "firebase": "goingonapp",
+  "public": "theme",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

@@ -4081,9 +4081,8 @@ div.mc-image {
 }
 .features .right {
   float: right;
-  width: 235px;
-  height: 475px;
-  background-image: url('../img/iphone-placeholder-black.png?1417061398');
+  width: 320px;
+  height: 480px;
   background-repeat: no-repeat;
 }
 @media screen and (max-width: 992px) {
