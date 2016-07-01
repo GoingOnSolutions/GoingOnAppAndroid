@@ -1,6 +1,5 @@
 package de.andreasschrade.androidtemplate.ui.base;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -11,9 +10,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 import de.andreasschrade.androidtemplate.R;
-import de.andreasschrade.androidtemplate.ui.SettingsActivity;
-import de.andreasschrade.androidtemplate.ui.ViewSamplesActivity;
-import de.andreasschrade.androidtemplate.ui.quote.ListActivity;
 
 import static de.andreasschrade.androidtemplate.util.LogUtil.logD;
 import static de.andreasschrade.androidtemplate.util.LogUtil.makeLogTag;
@@ -104,6 +100,7 @@ public abstract class BaseActivity extends AppCompatActivity {
      */
     private void goToNavDrawerItem(int item) {
         switch (item) {
+            /*
             case R.id.nav_quotes:
                 startActivity(new Intent(this, ListActivity.class));
                 finish();
@@ -114,6 +111,7 @@ public abstract class BaseActivity extends AppCompatActivity {
             case R.id.nav_settings:
                 startActivity(new Intent(this, SettingsActivity.class));
                 break;
+            */
         }
     }
 

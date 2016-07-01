@@ -1,14 +1,12 @@
 package de.andreasschrade.androidtemplate.ui;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.ActionBar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import de.andreasschrade.androidtemplate.R;
@@ -58,7 +56,7 @@ public class ViewSamplesActivity extends BaseActivity {
 
     @Override
     protected int getSelfNavDrawerItem() {
-        return R.id.nav_samples;
+        return R.id.nav_explore;
     }
 
     @Override
