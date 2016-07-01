@@ -1,9 +1,9 @@
-package de.andreasschrade.androidtemplate.ui.quote;
+package de.andreasschrade.goingon.ui.quote;
 
 import android.os.Bundle;
 
-import de.andreasschrade.androidtemplate.R;
-import de.andreasschrade.androidtemplate.ui.base.BaseActivity;
+import de.andreasschrade.goingon.R;
+import de.andreasschrade.goingon.ui.base.BaseActivity;
 
 /**
  * Simple wrapper for {@link ArticleDetailFragment}

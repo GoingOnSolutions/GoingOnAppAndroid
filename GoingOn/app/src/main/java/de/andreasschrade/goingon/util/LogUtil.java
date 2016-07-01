@@ -1,4 +1,4 @@
-package de.andreasschrade.androidtemplate.util;
+package de.andreasschrade.goingon.util;
 
 import android.util.Log;
 

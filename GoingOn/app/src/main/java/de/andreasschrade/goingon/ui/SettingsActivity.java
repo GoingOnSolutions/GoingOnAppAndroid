@@ -1,4 +1,4 @@
-package de.andreasschrade.androidtemplate.ui;
+package de.andreasschrade.goingon.ui;
 
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
@@ -6,8 +6,8 @@ import android.support.v7.app.ActionBar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import de.andreasschrade.androidtemplate.R;
-import de.andreasschrade.androidtemplate.ui.base.BaseActivity;
+import de.andreasschrade.goingon.R;
+import de.andreasschrade.goingon.ui.base.BaseActivity;
 
 /**
  * This Activity provides several settings. Activity contains {@link PreferenceFragment} as inner class.
