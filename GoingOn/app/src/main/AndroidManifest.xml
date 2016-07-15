@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.andreasschrade.androidtemplate">
+    package="de.andreasschrade.goingon">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/Theme.Main">
-        <activity android:name=".ui.quote.ListActivity">
-        </activity>
+        <activity android:name=".ui.quote.ListActivity"></activity>
         <activity
             android:name=".ui.quote.ArticleDetailActivity"
             android:label=""
@@ -29,6 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.signing.SigningActivity"></activity>
     </application>
 
 </manifest>

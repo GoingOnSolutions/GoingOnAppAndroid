@@ -1,12 +1,12 @@
-package de.andreasschrade.androidtemplate.ui;
+package de.andreasschrade.goingon.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 
-import de.andreasschrade.androidtemplate.R;
-import de.andreasschrade.androidtemplate.ui.quote.ListActivity;
+import de.andreasschrade.goingon.R;
+import de.andreasschrade.goingon.ui.signing.SigningActivity;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -25,7 +25,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 /* Create an Intent that will start the Menu-Activity. */
-                Intent mainIntent = new Intent(SplashActivity.this, ListActivity.class);
+                Intent mainIntent = new Intent(SplashActivity.this, SigningActivity.class);
                 SplashActivity.this.startActivity(mainIntent);
                 SplashActivity.this.finish();
             }

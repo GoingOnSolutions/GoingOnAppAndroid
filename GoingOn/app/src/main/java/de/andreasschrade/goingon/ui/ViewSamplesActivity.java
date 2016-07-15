@@ -1,4 +1,4 @@
-package de.andreasschrade.androidtemplate.ui;
+package de.andreasschrade.goingon.ui;
 
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
@@ -9,8 +9,8 @@ import android.view.View;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import de.andreasschrade.androidtemplate.R;
-import de.andreasschrade.androidtemplate.ui.base.BaseActivity;
+import de.andreasschrade.goingon.R;
+import de.andreasschrade.goingon.ui.base.BaseActivity;
 
 /**
  * Activity demonstrates some GUI functionalities from the Android support library.

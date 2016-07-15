@@ -1,4 +1,4 @@
-package de.andreasschrade.androidtemplate.ui.base;
+package de.andreasschrade.goingon.ui.base;
 
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -9,10 +9,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-import de.andreasschrade.androidtemplate.R;
+import de.andreasschrade.goingon.R;
 
-import static de.andreasschrade.androidtemplate.util.LogUtil.logD;
-import static de.andreasschrade.androidtemplate.util.LogUtil.makeLogTag;
+import static de.andreasschrade.goingon.util.LogUtil.logD;
+import static de.andreasschrade.goingon.util.LogUtil.makeLogTag;
 
 /**
  * The base class for all Activity classes.

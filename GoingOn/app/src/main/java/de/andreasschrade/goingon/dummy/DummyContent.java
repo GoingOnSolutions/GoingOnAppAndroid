@@ -1,11 +1,11 @@
-package de.andreasschrade.androidtemplate.dummy;
+package de.andreasschrade.goingon.dummy;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import de.andreasschrade.androidtemplate.R;
+import de.andreasschrade.goingon.R;
 
 /**
  * Just dummy content. Nothing special.
