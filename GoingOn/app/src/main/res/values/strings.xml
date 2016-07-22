@@ -21,6 +21,7 @@
     <!-- Init Fragment -->
     <string name="welcome_title">Welcome</string>
     <string name="no_string"></string>
+    <string name="log_in_facebook">Log in with Facebook</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

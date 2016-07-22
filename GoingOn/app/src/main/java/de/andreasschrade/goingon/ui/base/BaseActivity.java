@@ -158,4 +158,8 @@ public abstract class BaseActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
+
+    public void setNavigationEnabled(boolean state){
+        getSupportActionBar().setDisplayHomeAsUpEnabled(state);
+    }
 }

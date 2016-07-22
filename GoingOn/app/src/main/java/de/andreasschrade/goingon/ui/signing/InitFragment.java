@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import butterknife.Bind;
 import de.andreasschrade.goingon.R;
@@ -24,9 +23,6 @@ public class InitFragment extends BaseFragment {
      * The argument represents the dummy item ID of this fragment.
      */
     public static final String ARG_ITEM_ID = "item_id";
-
-    @Bind(R.id.textoPrueba)
-    TextView textoPrueba;
 
     @Bind(R.id.imgInitLogo)
     ImageView imgInitLogo;
@@ -48,7 +44,9 @@ public class InitFragment extends BaseFragment {
         if (!((BaseActivity) getActivity()).providesActivityToolbar()) {
             // No Toolbar present. Set include_signing_toolbar:
             toolbar.setTitle(getResources().getString(R.string.no_string));
+
             ((BaseActivity) getActivity()).setToolbar(toolbar);
+            ((SigningActivity)getActivity()).setNavigationEnabled(false);
         }
 
         return rootView;

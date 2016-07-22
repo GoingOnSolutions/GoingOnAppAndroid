@@ -19,6 +19,13 @@ android {
     }
 }
 
+
+repositories {
+    jcenter()
+    maven { url "https://jitpack.io" }
+}
+
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile "com.android.support:appcompat-v7:${android_support_lib_version}"
@@ -30,4 +37,7 @@ dependencies {
     compile 'com.jakewharton:butterknife:7.0.1'
     compile 'de.hdodenhof:circleimageview:1.2.1'
     compile 'com.android.support:support-v4:23.2.1'
+
+    compile 'com.github.championswimmer:Android-SocialButtons:1.0'
+
 }

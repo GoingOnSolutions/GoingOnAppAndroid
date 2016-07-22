@@ -14,7 +14,7 @@ public class SigningActivity extends BaseActivity {
 
         // Show the Up button in the action bar.
         if (getSupportActionBar() != null) {
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         }
 
         InitFragment fragment =  InitFragment.newInstance(getIntent().getStringExtra(InitFragment.ARG_ITEM_ID));
